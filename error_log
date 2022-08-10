@@ -1,0 +1,33 @@
+[12-Jun-2022 01:54:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/socialeventsja/public_html/wp-content/plugins/socialPay/spay.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/socialeventsja/public_html/wp-content/plugins/socialPay/spay.php on line 17
+[12-Jun-2022 01:55:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/socialeventsja/public_html/wp-content/plugins/socialPay/spay.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/socialeventsja/public_html/wp-content/plugins/socialPay/spay.php on line 17
+[12-Jun-2022 01:56:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/socialeventsja/public_html/wp-content/plugins/socialPay/spay.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/socialeventsja/public_html/wp-content/plugins/socialPay/spay.php on line 17
+[12-Jun-2022 01:56:51 UTC] PHP Parse error:  Unmatched '}' in /home/socialeventsja/public_html/wp-content/plugins/socialPay/spay.php on line 115
+[12-Jun-2022 02:08:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/socialeventsja/public_html/wp-content/plugins/socialPay/spay.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/socialeventsja/public_html/wp-content/plugins/socialPay/spay.php on line 17
+[12-Jun-2022 02:22:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/socialeventsja/public_html/wp-content/plugins/socialPay/spay.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/socialeventsja/public_html/wp-content/plugins/socialPay/spay.php on line 17
+[12-Jun-2022 02:24:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/socialeventsja/public_html/wp-content/plugins/socialPay/spay.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/socialeventsja/public_html/wp-content/plugins/socialPay/spay.php on line 17
+[12-Jun-2022 19:00:52 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/socialeventsja/public_html/wp-content/plugins/socialPay/spay.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/socialeventsja/public_html/wp-content/plugins/socialPay/spay.php on line 17
+[12-Jun-2022 19:06:58 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/socialeventsja/public_html/wp-content/plugins/socialPay/spay.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/socialeventsja/public_html/wp-content/plugins/socialPay/spay.php on line 17
