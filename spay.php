@@ -1,17 +1,43 @@
 <?php
 /*
- * Plugin Name: social_apiPay_api
- * Plugin URI: https://social_apicastja.com/plugins
+ * Plugin Name: socialPay_api
+ * Plugin URI: https://socialcastja.com/plugins
  * Description: Take credit card payments on your store.
  * Author: Kristopher Kerr
- * Author URI: http://social_apicastja.com
- * Version: 1.4.6
+ * Author URI: http://socialcastja.com
+ * Version: 1.5
  *
  /*
  * This action hook registers our PHP class as a WooCommerce payment gateway
  */
 //include_once( 'base.php' );
-    
+ require __DIR__ . '/vendor/autoload.php';
+
+
+/**
+ * Initialize the plugin tracker
+ *
+ * @return void
+ */
+function appsero_init_tracker_socialpayja_usd() {
+
+    if ( ! class_exists( 'Appsero\Client' ) ) {
+      require_once __DIR__ . '/appsero/src/Client.php';
+    }
+
+    $client = new Appsero\Client( '7635e9f5-908f-42a7-b540-88fd2e284ba8', 'Socialpayja-usd', __FILE__ );
+
+    // Active insights
+    $client->insights()->init();
+
+    // Active automatic updater
+    $client->updater();
+
+}
+
+appsero_init_tracker_socialpayja_usd(
+
+
  /* This action hook registers our PHP class as a WooCommerce payment gateway
  */
 add_filter( 'woocommerce_payment_gateways', 'spay_add_gateway_class' );
@@ -385,5 +411,6 @@ function custom_woocommerce_icons() {
     $icon .= '<img src="/wp-content/plugins/socialPay/svg/mastercard.svg' . '" alt="Mastercard" style="width: 90px; display: inline-flex;"/>';
     $icon .= '<img src="/wp-content/plugins/socialPay/svg/discover.svg' . '" alt="Discover" style="width: 90px; display: inline-flex;"/>';$icon .= '<img src="https://socialpayja.com/public/sites/8/13/images//uploaded/8/social%20pay.png' . '" alt="Spay" style="width: 90px; display: inline-flex;"/>';
  
-    return $icon; 
+    return $icon;
 }
+	);
